@@ -5,4 +5,185 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
-*/
+
+/* GENERIC */
+
+html,body{
+  margin: 0 ;
+  font-family: "Open Sans";
+  height: 100%;
+ 
+}
+
+img {
+  width: 200px;
+  display: flex;
+}
+
+/* NAV */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.nav-menu ul{
+  display:inline-flex;
+  list-style: none;
+  align-items: flex-end;
+  justify-content: center;
+  align-content: space-between;
+  margin: 10px;
+}
+
+.nav-menu li {
+  padding:10px;
+}
+/* SECTION 1 */
+.section1 {
+  height: 700px;
+  color: white;
+  display: flex;
+  background-image: url("/images/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 h1 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  line-height: 0;
+}
+
+.section1 p {
+  font-weight: 100;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1;
+}
+
+/* SECTION 2 */
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center
+}
+.separate {
+  color: black;
+  font-size: 2.5rem;
+  border-bottom: 3px solid #00B172;
+  padding-bottom: 3px;
+  border-length: 100px;
+
+}
+
+h4.separate{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+
+}
+
+.separatecontainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.underline {
+  width: 200px;
+  background-color: #00B172;
+  display: flex;
+  justify-content: center;
+  height: 2px;
+  border-radius: 25px;
+  border-color: #00B172;
+ 
+}
+
+.cardholder {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+}
+
+.cards img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards h5 {
+  color: #00B172;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.cards p {
+  font-weight: lighter;
+  font-size: 1em;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+/* SECTION 3 */
+.section3 {
+  background-color: #00B172;
+  color: #FFF;
+}
+
+.kanye {
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+.section3 h4 {
+  padding-left: 50px;
+}
+
+.section3 h5 {
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+.section3 p {
+  padding-left: 50px;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+
+.kanyeimgs {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-content: center;
+}
+
+
